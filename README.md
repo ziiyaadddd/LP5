@@ -6,3 +6,7 @@ for cpp codes - g++ -fopenmp -o program filename.cpp
 for cuda codes - To enable GPPU runtime in Google colab -
 Sign in with a Google account and open Colab
 Runtime > Change Runtime Type > T4 GPU
+
+!nvcc -arch=sm_75 filename.cu -o name
+!./name
+if non cuda, remove !
