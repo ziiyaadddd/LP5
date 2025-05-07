@@ -8,5 +8,7 @@ Sign in with a Google account and open Colab
 Runtime > Change Runtime Type > T4 GPU
 
 !nvcc filename.cu -o name
+
 !./name
+
 if non cuda, remove !
